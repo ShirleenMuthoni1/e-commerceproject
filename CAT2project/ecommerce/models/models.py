@@ -16,7 +16,7 @@ class Customer(models.Model):
 
 class Order(models.Model):
   """
-  Model representing an order placed by a customer.
+  Model representing an order placed by a customer.  
   """
   customer = models.ForeignKey(Customer, on_delete=models.CASCADE)  # One-to-Many relationship
   order_date = models.DateTimeField(auto_now_add=True)  # Automatically set on creation
