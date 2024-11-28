@@ -22,7 +22,7 @@ Then I also run the command pip -- list to see whether django is on the list.
 The customer class represents the customer and stores the customer's first name,last name and verifies their email.
 The order class represents the customer's order and stores the date of the order and the calculations of the total amount of the order.
 
-8.Next I run the command: python manage.py runserver and a server was created
+8.Next I run the command: python manage.py runserver and a Django server was started under the url http://127.0.0.1:8000/
 
 9.Next I ran these commands:python manage.py makemigrations models
                             python manage.py migrate
